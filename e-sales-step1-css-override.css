@@ -1,0 +1,112 @@
+/*esales css step 1 oveeride www.delijn.be css*/
+
+
+.e_sales .col-xs-12 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 767px)
+<style>
+.e_sales .subscription_selector .selector .spinner button, .e_sales .subscription_selector .selector .spinner input {
+    width: 30%;
+    height: 81px;
+    line-height: 20px;
+}
+
+
+------------
+
+
+
+
+
+@charset "UTF-8";
+.e_sales .subscription_selector .selector .spinner {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: 10;
+  height: auto;
+  /* To override css from De lijn website  */
+  padding: 5px;
+  font-size: 15px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  .e_sales .subscription_selector .selector .spinner button {
+    border: 0px;
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #4f5559; }
+    .e_sales .subscription_selector .selector .spinner button.less {
+      text-align: center; }
+      .e_sales .subscription_selector .selector .spinner button.less:after {
+        content: "\E908";
+        font-family: 'icomoon'; }
+    .e_sales .subscription_selector .selector .spinner button.more {
+      text-align: center; }
+      .e_sales .subscription_selector .selector .spinner button.more:after {
+        content: "\E909";
+        font-family: 'icomoon'; }
+    .e_sales .subscription_selector .selector .spinner button:focus {
+      outline: 1px dotted #7e8184; }
+      .e_sales .subscription_selector .selector .spinner button:focus:active {
+        outline: none; }
+  .e_sales .subscription_selector .selector .spinner input {
+    border: 0px;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    line-height: 35px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #4f5559; }
+
+@media (min-width: 768px) {
+  .e_sales .subscription_selector .selector .spinner {
+    font-size: 16px; }
+    .e_sales .subscription_selector .selector .spinner button,
+    .e_sales .subscription_selector .selector .spinner input {
+      width: 35px;
+      height: 35px;
+      line-height: 35px; } }
+
+@media (max-width: 767px) {
+  .e_sales .subscription_selector .selector .spinner {
+    padding: 0;
+    font-size: 12px; }
+    .e_sales .subscription_selector .selector .spinner button,
+    .e_sales .subscription_selector .selector .spinner input {
+      width: 20px;
+      height: 20px;
+      line-height: 20px; } }
+
+@media (min-width: 992px) {
+  .e_sales .subscription_selector .selector .spinner {
+    font-size: 18px; }
+    .e_sales .subscription_selector .selector .spinner button,
+    .e_sales .subscription_selector .selector .spinner input {
+      width: 40px;
+      height: 40px;
+      line-height: 40px; } }
+
+@media (min-width: 1200px) {
+  .e_sales .subscription_selector .selector .spinner {
+    font-size: 20px; }
+    .e_sales .subscription_selector .selector .spinner button,
+    .e_sales .subscription_selector .selector .spinner input {
+      width: 45px;
+      height: 45px;
+      line-height: 45px; } }
+
+
